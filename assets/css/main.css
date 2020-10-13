@@ -286,85 +286,6 @@ nav {
   font-weight: 100;
   color: #c1bfbf; }
 
-.play-pause-btn {
-  height: 100%;
-  width: 60px;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-  border: none;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #141720;
-  outline: none; }
-  .play-pause-btn.play {
-    background-image: url(../images/play.svg); }
-  .play-pause-btn.pause {
-    background-image: url("../images/pause.svg"); }
-
-.audio-player {
-  position: fixed;
-  background-color: #292C37;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  min-width: 300px;
-  height: 3.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  .audio-player .play-pause-btn {
-    display: none;
-    cursor: pointer; }
-  .audio-player .spinner {
-    margin-left: 1.4rem;
-    width: 18px;
-    height: 18px;
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/355309/loading.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    animation: spin 0.4s linear infinite; }
-  .audio-player .slider {
-    flex-grow: 1;
-    background-color: #F7F7F6;
-    cursor: pointer;
-    position: relative; }
-    .audio-player .slider .progress {
-      background-color: #7CCDB9;
-      border-radius: inherit;
-      position: absolute;
-      pointer-events: none; }
-      .audio-player .slider .progress .pin {
-        height: 16px;
-        width: 16px;
-        border-radius: 8px;
-        background-color: #7CCDB9;
-        position: absolute;
-        pointer-events: all;
-        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.32); }
-  .audio-player .controls {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-    color: #55606E;
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 24px;
-    margin-right: 24px; }
-    .audio-player .controls .slider {
-      margin-left: 16px;
-      margin-right: 16px;
-      border-radius: 2px;
-      height: 4px; }
-      .audio-player .controls .slider .progress {
-        width: 0;
-        height: 100%; }
-        .audio-player .controls .slider .progress .pin {
-          right: -8px;
-          top: -6px; }
-    .audio-player .controls span {
-      cursor: default; }
 
 /* mobile first*/
 /* Custom, iPhone Retina */
@@ -521,18 +442,9 @@ nav {
   .site__secondary_title {
     display: block; }
 
-  /* audio player */
-  .site__playbar {
-    background: white;
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1); }
 
-  .audio-player {
-    position: inherit;
-    background-color: white;
-    margin-right: 5rem;
-    border-radius: 4px; } }
 @media only screen and (min-width: 1400px) {
   .right .site__description {
     column-count: 2; } }
 
-/*# sourceMappingURL=dropcast.css.map */
+  }
